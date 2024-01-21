@@ -1,4 +1,5 @@
-import { StyleSheet, Image } from "react-native";
+import { StyleSheet } from "react-native";
+import {Image} from 'expo-image';
 
 
 const styles = StyleSheet.create({
