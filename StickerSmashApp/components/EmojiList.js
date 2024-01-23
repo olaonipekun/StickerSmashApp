@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { StyleSheet, FlatList, Image, Platform, Pressable } from 'react-native';
 
+
 export default function EmojiList({ onSelect, onCloseModal }) {
   const [emoji] = useState([
     require('../assets/images/preacher.jpg'),
